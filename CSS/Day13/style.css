@@ -1,0 +1,197 @@
+/*
+
+What is media query?
+
+*/
+
+/* local and global */
+
+:root{
+
+    --mainColor: rgb(138, 207, 0); /*Global variable*/
+
+    --width:200px;
+
+    --align:right;
+
+}
+
+.h1{
+
+    --size: 40px; /*Local variable*/
+
+    background-color: var(--mainColor);
+
+    font-size: var(--size);
+
+}
+
+.p1{
+
+    color:var(--mainColor);
+
+    text-align: var(--align);
+
+}
+
+.div1{
+
+    --border: 5px solid;
+
+    background-color: var(--mainColor);
+
+    width: var(--width);
+
+    height: var(--width);
+
+    border:var(--border) red;
+    margin-bottom: 20px;
+
+}
+
+/* Animation in CSS */
+
+.div2{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    animation-name: move;
+    animation-duration: 2s;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+@keyframes move {
+
+    from{
+        background-color: brown;
+        left:0px;
+    }
+
+    to{
+        background-color: blueviolet;
+        left:200px
+    }
+}
+.div3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(91, 165, 42);
+    animation-name: square;
+    margin-bottom: 20px;
+    animation-duration: 0s;
+    position: relative;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+.div4 {
+    width: 100px;
+    height: 100px;
+    background-color: fuchsia;
+    animation-name: triangle;
+    animation-duration: 0s;
+    animation-delay: 1s;
+    animation-iteration-count: infinate;
+    animation-timing-function: ease-in-out;
+    margin-bottom: 20px;
+    position: relative;
+
+}
+
+/* @keyframes square {
+
+    0%{
+
+        left:0;
+
+    }
+
+    25%{
+
+        left:200px;
+
+        top:0;
+
+        background-color: blueviolet;
+
+    }
+
+    50%{
+
+        left: 200px;
+
+        top:200px;
+
+        background-color: brown;
+
+    }
+
+    75%{
+
+        left:0px;
+
+        top:200px;
+
+        background-color: aqua;
+
+    }
+
+    100%{
+
+        left:0;
+
+        top:0;
+
+        background-color: rgb(91, 165, 42);
+
+    }
+} */
+@keyframes triangle {
+    0%{
+        left:0;
+        top: 0px
+    }  
+    25%{
+        left: 50px;
+        top:1px;
+    }
+       50%{
+        left: 150px;
+        top: 150px;
+    }
+    75%{
+        left:200px;
+        top:200px;
+    }
+    100%{
+        left:0;
+        top:0;  
+    }
+}
+
+.transition {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin-bottom: 20px;
+    transition: width 1s, background-color 2s;
+}
+.transition:hover {
+    width: 300px;
+    background-color: green;
+
+}
+.transform {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    margin-bottom: 20px;
+    /* transform: translate(100px, 50px); */
+    transition: transform 4s;
+   
+}
+.transform:hover{
+    transform: rotate(730deg);
+}

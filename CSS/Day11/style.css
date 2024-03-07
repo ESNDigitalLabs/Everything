@@ -1,0 +1,147 @@
+/*
+What is CSS Flex?
+    -- orgnaize our item in one dimension - either row or column
+    -- resize and position elements one dimensionally
+What is difference between position: relative; and position: sticky property?
+*/
+/* Grid */
+
+/* body{
+    display: grid;
+    grid-gap: 5px;
+    column-gap: 2px;
+    row-gap: 10px;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows:100px 200px 100px ;
+ 
+}
+div{
+    background-color: blueviolet;
+}
+.div1{
+    grid-column-start:1;
+    grid-column-end: 4;
+    grid-column: 1/span 3;
+}
+.div2{
+    grid-column: 1/span 1;
+    grid-row: 2/span 2;
+}
+.div3{
+    grid-column: 2/ span 1;
+}
+.div4{
+    grid-column: 3/ span 1;
+}
+.div5{
+    grid-column: 2/span 2;
+} */
+
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: 70px minmax(300px, auto) 70px;
+    /* grid-gap: 3px; */
+/* }
+ 
+.header{
+    grid-column: 1/ span 3;
+    background-color: aqua;
+}
+.menu{
+background-color: brown;
+}
+.content{
+    grid-column: 2/ span 2;
+    background-color: coral;
+}
+.footer{
+    grid-column: 1/ span 3;
+    background-color: aqua;
+}
+
+Pervious Test CSS code  */ 
+
+* {
+    margin: 0;
+    padding: 0;
+    
+
+}
+.container {
+    display: grid;
+    background-color: yellow;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 70px minmax(300px, auto) 70px;
+    grid-gap: 3px;
+
+}
+.div1 {
+    background-color: aqua;
+    grid-column: 1/ span 4;
+    
+}
+.div2 {
+    background-color: blue;
+    grid-column: 1/ span 2;
+
+
+}
+.div3 {
+    background-color: red;
+    grid-column: 3/ span 1;
+
+}
+.div4 {
+    background-color: darksalmon;
+    grid-column: 4/ span 1;
+
+}
+.div5 {
+    background-color: forestgreen;
+    grid-column: 1/ span 4;
+}
+
+
+/* CSS Units */
+/*em, rem, vh, and vw units  16px 32px 48px
+ 
+em = Relative to the font-size of the parent element (2em means 2 times the size of the current font)
+rem = Relative to font-size of the root element - in html doc root is always <html>
+vh = Relative to 1% of the height of the viewport*
+vw = Relative to 1% of the width of the viewport*
+ 
+% = Relative to viewport*
+ 
+* Viewport = the browser window size.
+*/
+.header{
+    font-size: 2em;
+}
+html{
+    font-size: 30px;
+}
+.menu{
+    font-size: 2rem;
+}
+.div1{
+    background-color: brown;
+    height: 80vh;
+    width: 50vw;
+}
+.main{
+    width: 200px;
+    background-color: blueviolet;
+    height: 100px;
+}
+.child{
+    width: 90%;
+    height: 50%;
+    background-color: chartreuse;
+}

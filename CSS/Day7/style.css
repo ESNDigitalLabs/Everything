@@ -1,0 +1,50 @@
+/* This is a single line comment */
+
+* {
+    background-color: #c3c3f0;  
+
+}
+
+h1 {
+    width: 40%;
+    height: 50px;
+    font-family: fantasy;
+    padding-left: 50px;
+
+}
+#intro {
+    color: red;
+    font-family: fantasy;
+    text-align: justify;
+    
+}
+blockquote {
+    font-style: italic;
+    color: greenyellow;
+
+/* This is
+a multi-line
+comment */
+
+}
+img {
+    border: 10px outset black;
+
+}
+button {
+    color: blueviolet;
+    padding: 10px;
+    /* padding-left: 7px; */
+    align-content: center;
+    cursor: pointer;
+    
+    
+}
+#summary {
+    text-align: justify;
+    color: blue;
+}
+div {
+    padding: 5px;
+
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+</head>
+<body>
+    <h2>Basic Calculator</h2>
+    <form class="container calculator">
+        <input type="number" id="numberone" value="">
+        <p style="display: inline; color:snow;"> + </p>
+        <input type="button" id="add" value="+">
+        <input type="button" id="subtr" value="-">
+        <input type="button" id="multi" value="x">
+        <input type="button" id="divide" value="/">
+        <input type="text" id="numbertwo" value=""/>
+        <input type="button" id="sumbtn" value="Sum UP!" onclick="calculate()"/>
+        <input type="number" id="result" disabled/> <!-- JS will create a value and insert the result -->
+        <input type="reset" id="reset" name="reset">
+    </form>
+
+
+    <script src="/Javascript/Part8/calculator.js"></script>
+</body>
+</html>

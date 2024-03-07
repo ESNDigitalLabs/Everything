@@ -1,0 +1,87 @@
+/* Box shadow CSS */
+/* body{
+    display: flex;
+    justify-content: center;
+
+}
+.div1{
+    margin: 100px 20px 50px 30px;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+     box-shadow: h-offset v-offset | blur, spread, color*, insert; required on Safari */
+    /* box-shadow: 5px 5px 100px 1px red inset;
+
+    transition: box-shadow 1s;
+}   
+.div:hover {
+
+
+}
+
+.container .firstDiv{
+    background-color: blueviolet;
+    height: 40px;
+    z-index: 2;
+    position: relative;
+    top: 30px;
+}
+.container .secondDiv{
+    background-color: rgb(136, 122, 150);
+    height: 40px;
+    position: relative;
+    top:20px;
+    z-index: 5;
+}
+.container .thirdDiv{
+    background-color: rgb(11, 5, 17);
+    height: 40px;
+    z-index: 1;
+} 
+
+/*
+three div or picture
+change thier position to overlap on each other,
+when you hover your mouse pointer on any div/picture it should overlap on others.
+*/
+.container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+
+}
+.container .one{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: relative;
+    z-index: 1;
+    transition: 2s;
+    margin-bottom: 5px;
+
+}
+.container .two{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: relative;
+    z-index: 1;
+    transition: 2s;
+    margin-bottom: 5px;
+
+}
+.container .three{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    position: relative;
+    z-index: 1;
+    transition: 2s;
+    margin-bottom: 5px;
+
+}
+.one:hover, .two:hover, .three:hover {
+    height: 100px;
+    width: 100px;
+    box-shadow: 15px 5px #888888;
+    
+}

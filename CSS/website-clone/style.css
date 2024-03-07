@@ -1,0 +1,139 @@
+* {
+font-family: Arial, Helvetica, sans-serif;
+background-color: white;
+
+}
+
+.nav {
+    display: block;
+    color: black;
+    text-align: right;
+
+}
+
+.header {
+    display: flex;
+    
+}
+.headerbuttons {
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+
+    padding: 10px;
+}
+.button1 {
+
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    height: 42px;
+    width: 154px;
+    padding: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+.button2 {
+  
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    height: 42px;
+    width: 154px;
+    padding: 5px;
+    cursor: pointer;
+    text-align: center;
+
+}
+.intro {
+    flex-direction: column-reverse; 
+ 
+ 
+ }
+ 
+ .intro1 {
+     display: block;
+     font-size: xx-large;
+     
+ 
+ }
+ .intro2 {
+  
+ 
+ }
+ 
+ .destinations {
+     display: flex;
+     flex-direction: column;
+     
+    
+
+ }
+ .destinations h6 {
+    font-weight: bold;
+    font-size: x-large;
+
+ }
+ .experience {
+    display: flex;
+    flex-direction: column;
+
+ }
+
+ th {
+    display: inline-block;
+    text-align: left;
+    padding: 10px;
+    box-sizing: inherit;
+     
+ 
+ }
+ td {
+    display: inline-block;
+    text-align: justify;
+     padding: 10px;
+     box-sizing: inherit;
+     
+ }
+
+ .experience-button {
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    height: 42px;
+    width: 154px;
+    padding: 5px;
+    text-align: center;
+
+ }
+.footer  {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+.footer .li {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.declaration {
+    background-color: black;
+    color: #8e8e95;
+
+}
+
+.footer-box {
+    background-color: black;
+    color: #8e8e95;
+}
+
+.company-info {
+    background-color: black;
+    color: #8e8e95;
+}
+

@@ -1,0 +1,52 @@
+
+/* h2 {
+    color: blue;
+}
+
+.class {
+    color: red;
+} */
+/* 
+* {
+    background-color: #c4c4a7;
+}
+
+h1 {
+    color: #84a7f1 ;
+    font-family: fantasy;
+}
+
+h2 {
+    font-family: fantasy
+}
+ul {
+    color: #84a7f1;
+    font-family: 'Courier New', Courier, monospace;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+table, th, td {
+    border: 1px solid black;
+  }
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+}
+#image {
+    color: #84a7f1 
+} */
+
+
+div {
+
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}

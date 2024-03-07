@@ -1,0 +1,49 @@
+/* 
+p.one::first-line {
+    color: red;
+}
+
+p.two::first-letter{
+    font-size: 200%;
+
+}
+
+h3::after {
+content: '*';
+
+}
+li::marker {
+    color: palevioletred;
+    font-size: 30px;
+
+} */
+
+
+h1{
+    color:#ff004c
+}
+ 
+::marker {
+    color: rgb(160, 45, 135);
+    font-size: 27px;
+  }
+  p::first-letter {
+    color: #ff004c;
+    font-size: xx-large;
+  }
+ 
+  p::first-line {
+    color:hotpink;
+    font-variant: small-caps; }
+ 
+    li::selection {
+        color: rgb(0, 110, 255);
+        background: rgb(0, 0, 0);
+      }
+ 
+      h1::after {
+        content: '*';}
+   
+     h1::before {
+            content: '*';}
+   
